@@ -1,31 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/images/svg/logo.svg" />
-        <title>React Portfolio by Ryan Balieiro</title>
 
-        <!-- Meta: Configurations -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="format-detection" content="address=no"/>
-        <meta name="color-scheme" content="dark">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Corrige le chemin de logo.svg avec %PUBLIC_URL% pour CRA ou Vite -->
+    <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/images/svg/logo.svg" />
+    <title>React Portfolio by Ryan Balieiro</title>
 
-        <!-- Meta: SEO -->
-        <meta name="description" content="A futuristic react portfolio template by Ryan Balieiro."/>
-        <meta name="keywords" content="resume, cv, ryan balieiro, ryanbalieiro, react, web developer, template"/>
-        <meta name="robots" content="index, follow"/>
-        <meta name="googlebot" content="index, follow"/>
-        <meta name="google" content="notranslate"/>
-        <meta name="author" content="Ryan Balieiro"/>
-        <meta name="theme-color" content="#111111"/>
+    <!-- Meta: Configurations -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="format-detection" content="address=no" />
+    <meta name="color-scheme" content="dark" />
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Saira:400,700" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    </head>
-    <body style="background-color: #111111">
-        <div id="root"></div>
-        <script type="module" src="/src/main.jsx"></script>
-    </body>
+    <!-- Meta: SEO -->
+    <meta name="description" content="A futuristic react portfolio template by Ryan Balieiro." />
+    <meta name="keywords" content="resume, cv, ryan balieiro, ryanbalieiro, react, web developer, template" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="author" content="Ryan Balieiro" />
+    <meta name="theme-color" content="#111111" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Saira:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+
+    <!-- Ajoute le fichier CSS généré par le bundler -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/index.css" />
+</head>
+
+<body style="background-color: #111111">
+    <div id="root"></div>
+    <!-- Remplace /src/main.jsx par le fichier bundle généré -->
+    <script type="module" src="%PUBLIC_URL%/index.js"></script>
+</body>
+
 </html>
